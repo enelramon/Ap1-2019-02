@@ -16,5 +16,10 @@ namespace Ejemplos_Ap1_2019_01
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola mundo","Saludar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        }
     }
 }
